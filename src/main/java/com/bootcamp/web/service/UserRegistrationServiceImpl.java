@@ -7,7 +7,7 @@ import com.bootcamp.web.entity.User;
 import com.bootcamp.web.repository.UserRepository;
 
 @Service
-public class UserRegistrationServiceImpl implements UserRegistrationService{
+public class UserRegistrationServiceImpl implements UserRegistrationService {
     @Autowired
     private UserRepository userRepository;
 
